@@ -1,3 +1,7 @@
+#container {
+	margin: auto;
+}
+
 #blueBar {
 	background-image: url(../img/blueBar.jpg);
 	width: 100%;
@@ -36,11 +40,12 @@
 
 .box {
 	padding: 10px 150px 10px 150px;
+	position: relative;
 }
 
 #headerBackg {
 	background-image: url(../img/fakewhite.jpg);
-	height: 109px;
+	height: 100%;
 }
 
 #logo {
@@ -117,6 +122,7 @@
 	position: absolute;
 	width: 939px;
 	height: 382px;
+	margin-top: -1px;
 }
 
 #backImg {
@@ -128,21 +134,28 @@
 }
 
 #imgBar {
-	position: absolute;
-	height: 18px;
-}
-
-#imgBar1 {
+	background-image: url(../img/imgBar.jpg);
 	height: 18px;
 	width: 100%;
 }
 
+.bot {
+	float: left;
+	width: 134px;
+	height: 18px;
+}
+
+#bot1 {
+	margin-left: 150px;
+}
+
 #homeBackg {
 	background-image: url(../img/fakewhite.jpg);
-	height: 400px;
+	height: 350px;
 }
 
 .post {
+	position: relative;
 	text-align: center;
 	background-color: #f9fafa;
 	padding: 5px;
@@ -152,7 +165,9 @@
 	display: inline-table;
 	color: #0663a6;
 	font-size: 14px;
-	margin: 5px 20px 5px 0px;
+	margin: 5px 35px 5px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px #929395;
 }
 
 #pic1 {
@@ -167,11 +182,228 @@
 	color:#6c6969;
 }
 
-#search {
+#viewMore {
+	width: 72px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#textPad {
+	margin-left: 40px;
+}
+
+.postIcon {
+	position: absolute;
 	height: 19px;
 	width: 19px;
-	margin: 0px;
+	margin-left: -32px;
+	margin-top: 4px;
+}
+
+#postIt {
 	display: inline-table;
+	margin-bottom: 0px;
+}
+
+.shortPost {
+	position: relative;
+	text-align: center;
+	background-color: #f9fafa;
+	width: 280px;
+	height: 155px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #0663a6;
+	font-size: 14px;
+	margin: 5px 20px 10px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px #929395;
+	line-height: 20px;
+}
+
+#orangeBackg {
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px #929395;
+}
+
+.iconText {
+	position: absolute;
+	font-size: 12px;
+	color: white;
+	margin: 10px 0px 10px 100px;
+	text-shadow: 1px 1px #b2b2b2;
+}
+
+#left {
+	margin-left: 75px;
+}
+
+#whiteBackg {
+	background-color: white;
+	height: 274px;
+}
+
+#postTitle {
+	font-size: 14px;
+	color: #0663a6;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#postTitle1 {
+	position: absolute;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0663a6;
+	top: 250px;
+	left: 172px;
+}
+
+#postTitle2 {
+	position: absolute;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0663a6;
+	top: 250px;
+	left: 377px;
+}
+
+#postTitle3 {
+	position: absolute;
+	font-size: 13px;
+	font-weight: bold;
+	color: #0663a6;
+	top: 250px;
+	left: 580px;
+}
+
+#serviceBox {
+	display: inline-table;
+	margin-right: 90px;
+}
+
+.serviceBox2 {
+	margin: 30px 90px 30px 0px;
+}
+
+#serviceBox3 {
+	position: absolute;
+	left: 486px;
+	top: 156px;
+}
+
+d {
+	font-weight: bold;
+	color: #242424;
+	font-size: 12px;
+}
+
+.serviceText {
+	text-align: left;
+	font-size: 12px;
+	color: #6c6969;
+	width: 160px;
+	display: inline-block;
+	line-height: 16px;
+}
+
+#people1 {
+	height: 48px;
+	width: 47px;
+	margin: 10px 40px 10px 10px;
+}
+
+#folder {
+	height: 48px;
+	width: 35px;
+	margin: 10px 40px 10px 10px;
+}
+
+#pills {
+	height: 45px;
+	width: 53px;
+	margin: 10px 40px 10px 10px;
+}
+
+#people2 {
+	height: 48px;
+	width: 50px;
+	margin: 10px 40px 10px 10px;
+}
+
+#viewMore1 {
+	width: 72px;
+	height: 20px;
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+}
+
+#sBar {
+	position: absolute;
+	width: 1px;
+	height: 250px;
+	top: 15px;
+	right: 540px;
+}
+
+#resources {
+	position: absolute;
+	width: 300px;
+	height: 260px;
+	top: 10px;
+	right: 230px;
+}
+
+.serviceText1 {
+	text-align: left;
+	font-size: 12px;
+	color: #6c6969;
+	width: 250px;
+	display: inline-block;
+	line-height: 16px;
+}
+
+.serviceText2 {
+	text-align: left;
+	font-size: 12px;
+	color: #6c6969;
+	width: 250px;
+}
+
+#talkBoxes {
+	display: inline;
+}
+
+#blueLeft {
+	width: 12px;
+	height: 13px;
+	margin: 0px 10px -80px 0px;
+}
+
+#blueRight {
+	width: 12px;
+	height: 13px;
+	margin: 0px 10px -80px -40px;
+}
+
+#talkBox {
+	background-image: url(../img/talkBox.png);
+	width: 129px;
+	height: 176px;
+	display: inline-table;
+	padding: 10px;
+	margin: 0px 50px 50px 0px;
+}
+
+#shadowBar {
+	position: absolute;
+	width: 618px;
+	height: 5px;
+	bottom: 10px;
+	left: 150px;
 }
 
 #social {
