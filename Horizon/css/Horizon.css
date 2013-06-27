@@ -1,0 +1,452 @@
+body {
+	position: relative;
+	width: 100%;
+	height: 1826px;
+	background-image: url(../img/background.jpg);
+	margin: auto;
+}
+
+#container {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+	background-image: url(../img/fakeWhite.jpg);
+}
+
+.blueBar {
+	background-image: url(../img/blueBar.jpg);
+	height: 31px;
+}
+
+.whiteText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.whiteText a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.whiteText a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.whiteText a:hover {
+	font-weight: bold;
+}
+
+#register {
+	border-left: solid 1px white;
+}
+
+.flag {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#header {
+	width: 100%;
+	height: 109px;
+	background-image: url(../img/fakewhite.jpg);
+}
+
+#logo {
+	width: 272px;
+	height: 73px;
+	margin: 15px;
+	float: left;
+}
+
+#menu {
+	position: absolute;
+	top: 65px;
+	right: 0px;
+}
+
+.menuText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0663a6;
+	display: inline-table;
+	margin: 5px;
+}
+
+#vBar {
+	height: 27px;
+	width: 2px;
+}
+
+#menu a:link {
+	color: #0663a6;
+	text-decoration: none;
+}
+
+#menu a:visited {
+	color:#0663a6;
+}
+
+#menu a:hover {
+	color: #3c9ce2;
+}
+
+#invisibleBar {
+	background-image: url(../img/invisibleBar.jpg);
+	height: 3px;
+}
+
+#slides {
+	position: relative;
+	background-image: url(../img/carousel.jpg);
+	width: 100%;
+	height: 373px;
+}
+
+#slideLeft {
+	position: absolute;
+	width: 29px;
+	height: 79px;
+	top: 134px;
+	left: -46px;
+}
+
+#slideRight {
+	position: absolute;
+	width: 30px;
+	height: 79px;
+	top: 133px;
+	right: -50px;
+}
+
+#carouselMargin {
+	padding-top: 39px;
+	margin-left: 45px;
+	padding-right: 50px;
+}
+
+#imgBar {
+	position: relative;
+	background-image: url(../img/imgBar.jpg);
+	height: 18px;
+	width: 100%;
+}
+
+.dropdown-menu > ul {
+	background-color: blue;
+}
+
+#bot1 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 29px;
+}
+
+#bot2 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 158px;
+}
+
+#bot3 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 292px;
+}
+
+#bot4 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 426px;
+}
+
+#bot5 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 560px;
+}
+
+#bot6 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 694px;
+}
+
+#bot7 {
+	cursor: pointer;
+	position: absolute;
+	top: -1px;
+	left: 828px;
+}
+
+#postBox {
+	position: relative;
+	width: 100%;
+	height: 361px;
+	background-image: url(../img/postBox.jpg);
+}
+
+.post {
+	position: relative;
+	margin: 15px 5px 5px 5px;
+	width: 290px;
+	display: inline-table;
+}
+
+#postStyle {
+	height: 310px;
+	padding: 5px;
+	background-color: #f9fafa;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px #929395;
+}
+
+#shortPost {
+	margin-bottom: 20px;
+	height: 140px;
+	padding: 5px;
+	background-color: #f9fafa;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px #929395;
+}
+
+.blueTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #62a2d2;
+	font-weight: bold;
+}
+
+#pic {
+	width: 269px;
+	height: 121px;
+	margin: 5px;
+}
+
+.postText {
+	margin: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	color:#6c6969;
+	line-height: 15px;
+	display: inline-block;
+}
+
+.viewMore {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#arrow {
+	margin-left: 5px;
+}
+
+#textPad {
+	margin-left: 65px;
+}
+
+#search {
+	position: absolute;
+	height: 19px;
+	width: 19px;
+	left: 12px;
+	margin: 5px;
+}
+
+#group {
+	position: absolute;
+	height: 19px;
+	width: 25px;
+	left: 12px;
+	margin: 5px;
+}
+
+#letter {
+	position: absolute;
+	width: 24px;
+	height: 18px;
+	left: 12px;
+	margin: 5px;
+}
+
+#orangeBackg {
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px #929395;
+}
+
+#largeBot {
+	margin: 10px;
+}
+
+.iconText {
+	position: absolute;
+	font-size: 12px;
+	color: white;
+	margin: 10px 0px 10px 110px;
+	text-shadow: 1px 1px #b2b2b2;
+}
+
+#left {
+	margin-left: 85px;
+}
+
+#serRes {
+	width: 100%;
+	height: 273px;
+	background-color: white;
+}
+
+#services {
+	position: relative;
+	padding-top: 20px;
+	text-align: left;
+	height: 253px;
+}
+
+.postImg {
+	margin-top: -60px;
+	margin-right: 30px;
+	margin-left: 40px;
+}
+
+#serv1 {
+	position: relative;
+}
+
+#serv2 {
+	position: relative;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#resources {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	text-align: left;
+	border-left: solid 1px #f6f6f6;
+	height: 243px;
+}
+
+b {
+	color: black;
+}
+
+#img2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.viewMore1 {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+}
+
+#testimonials {
+	position: relative;
+	background-image: url(../img/testimonials.jpg);
+	height: 330px;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#social {
+	position: relative;
+	background-color: #f7f7f7;
+	height: 87px;
+}
+
+#phone {
+	height: 40px;
+	width: 36px;
+	margin: 20px 5px 10px 5px;
+}
+
+#emergency {
+	display: inline-table;
+}
+
+c {
+	color: #8f8d8d;
+}
+#circles1 {
+  position: relative;
+}
+
+ #circle1 {
+  border-radius: 45px;
+  height: 40px;
+  width: 26px;
+  margin-top: 12px;
+  margin-left: 50px;
+ }
+
+ #twitter1 {
+  position: absolute;
+  top: 34px;
+  left: 82px;
+  height: 17px;
+  width: 23px;
+ }
+
+ #facebook1 {
+  position: absolute;
+  top: 35px;
+  left: 211px;
+  height: 16px;
+  width: 8px;
+ }
+
+ #youtube1 {
+  position: absolute;
+  top: 34px;
+  left: 326px;
+  height: 17px;
+  width: 18px;
+ }
+
+ #socialMargin {
+ 	position: absolute;
+ 	margin-top: 30px;
+ 	margin-left: 490px;
+ }
+
+#footer {
+	background-image: url(../img/footer.jpg);
+	height: 235px;
+}
+
+#white {
+	text-align: left;
+	font-size: 12px;
+	color: white;
+	margin: 20px;
+}
+
+#white a:link {
+	color: white;
+}
+
+#white a:hover {
+	color: white;
+}
+
+#white a:visited {
+	color: white;
+}
